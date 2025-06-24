@@ -25,5 +25,8 @@ public class DataTypesVariablesInput {
         String wishes = "Good Morning";
         System.out.println(wishes);
 
+        char myCharacter = 'K';
+        System.out.println(myCharacter);
+
     }
 }

@@ -6,6 +6,7 @@ public  class ArithmeticOperators {
         int product = a * b; // Multiplication
         int quotient = b / a; // Division
         int remainder = b % a; // Modulus
+        // Modulus operator gives the remainder of a division operation
 
         System.out.println("Sum: " + sum);
         System.out.println("Difference: " + difference);

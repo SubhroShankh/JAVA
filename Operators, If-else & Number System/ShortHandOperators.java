@@ -19,16 +19,6 @@ public class ShortHandOperators {
         int x5 = input.nextInt();
         a %= x5; // a = a % x5
         System.out.println(a); 
-
-
-
-
-
-
-
-
-
-
-
     }
-}
+}  
+

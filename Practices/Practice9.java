@@ -17,3 +17,4 @@ public class Practice9 {
         System.out.println("Your Simple intrest is: " + c);
     }
 }
+ 

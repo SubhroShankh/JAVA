@@ -15,10 +15,14 @@ public class ifElse {
         System.out.println( "Please enter your age: ");
         int age  = input.nextInt();
 
-        if (age>60) {
+        if (age>=60) {
             System.out.println("Hello Grandpa");
         } else {
-            System.out.println("Hello Uncle");
+            if (age>=18){
+                System.out.println("Hello Adult");
+            }  else {
+                System.out.println("Hello kiddo");
+            }
         }
 
         

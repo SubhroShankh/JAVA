@@ -17,5 +17,4 @@ while (sum <= 8) {
  System.out.println(sum);
  sum = sum +2 ;    
 }
-}
-}
+}}

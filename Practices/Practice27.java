@@ -9,7 +9,7 @@ public class Practice27 {
         int num = input.nextInt();
 
         int a = digitSum(num);
-        System.out.println("your sum of given number is " + a);
+        System.out.println("your sum of given number is: " + a);
     }
 
 public static int digitSum(int num) {

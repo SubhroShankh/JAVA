@@ -14,12 +14,17 @@ public class Practice28 {
     }
 
     public static int LCM(int one , int sec) {
-        int i = 1 ;
-        while (i<=one*sec) {
-            if (i%one == 0 && i%sec == 0) {
-                return i ;
-            }i++;
+        //int max = max(one, sec);
+        for ( int i = 1 ; i<=(one*sec) ; i ++) {
+            if (i%one == 0 && i % sec == 0) {
+                return i;
+            }
+            
         }
-    return (one*sec);
+        return (one*sec);
     }
+
+    /*  public static int max(int num1 , int num2) {
+       return(num1 > num2) ? num1: num2 ;
+    } */
 }

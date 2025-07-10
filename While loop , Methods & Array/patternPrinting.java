@@ -23,5 +23,6 @@ public class patternPrinting {
             System.out.println();
             b++;
         }
+        System.out.println("Thank you for using the programme.");
     }
 }

@@ -14,7 +14,7 @@ public class Practice28 {
     }
 
     public static int LCM(int one , int sec) {
-        //int max = max(one, sec);
+        //int max = max(one, sec);<= Wrong
         for ( int i = 1 ; i<=(one*sec) ; i ++) {
             if (i%one == 0 && i % sec == 0) {
                 return i;
@@ -24,7 +24,7 @@ public class Practice28 {
         return (one*sec);
     }
 
-    /*  public static int max(int num1 , int num2) {
+    /*  public static int max(int num1 , int num2) {   <= Wrong
        return(num1 > num2) ? num1: num2 ;
     } */
 }

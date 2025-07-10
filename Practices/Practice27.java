@@ -27,7 +27,7 @@ public static int digitSum(int num) {
         num = num /10;
     }
         
-    
+     
     return sum;
 }
 

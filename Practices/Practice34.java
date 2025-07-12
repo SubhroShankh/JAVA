@@ -5,7 +5,7 @@ public class Practice34 {
         System.out.println("Welcome to palindrome checking program\n");
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Please enter a digit for verification: ");
+        System.out.print("Please enter a digit for verification: ");
         int num = input.nextInt(); 
         
         boolean ispalindrome = palindromeCheck(num);
@@ -29,7 +29,6 @@ public class Practice34 {
             num = num * 10 + digit;
             num1 /= 10;
         }
-        System.out.println(num);
         return num;
     }
 

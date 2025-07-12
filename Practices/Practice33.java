@@ -23,7 +23,7 @@ public class Practice33 {
         while (num1>0) {
             int lastDigit = num1%10;
             num1 /= 10 ;
-            finalNumber  += power(lastDigit, noOfDigits);
+            finalNumber += power(lastDigit, noOfDigits);
         }
 
         return finalNumber == numCopy;

@@ -11,7 +11,7 @@ public class Practice24 {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter the number which you want to Multiplication Table: ");
         int num = input.nextInt();
-        System.out.println("Till how much nmber you want to print: ");
+        System.out.println("Till how much number you want to print: ");
         int x = input.nextInt();
         int i = 0;
 
@@ -21,10 +21,4 @@ public class Practice24 {
             i++;
         }
     }
-    
-    
-
 }
-
-
-

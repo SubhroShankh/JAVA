@@ -24,10 +24,11 @@ public class Practice44 {
         if (arr.length == 0) {
             return 0;
         }
-        int sum = sum(arr);
+        int sum = sum(arr);            
         int rows = arr.length;
         int colmn = arr[0].length;
-        return  sum / rows*colmn;
+        return  sum / (rows*colmn);
     }
 
 }
+ 

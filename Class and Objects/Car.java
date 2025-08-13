@@ -66,4 +66,10 @@ public class Car {
     public float getCurrentFuelLevel() {
         return currentFuelInLiters;
     }
+ 
+    @Override
+    protected void finalize() throws Throwable { // it is not guranteed to run and not ecommended to use finalize
+        System.out.println("I am in finalize");
+    }
+
 }

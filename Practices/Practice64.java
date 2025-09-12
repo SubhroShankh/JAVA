@@ -14,10 +14,14 @@ class PalindromeRecursion{
         if (palindrome.length() <= 1) {
             return true;
         }
-        int lastPas = palindrome.length() -1;
+        int lastPas = palindrome.length() -1; 
+        
+        // Check if the first and last characters are different — if so, it's not a palindrome
         if(palindrome.charAt(0) != palindrome.charAt(lastPas)){
             return false;
         }
+        
+        // Create a new string by removing the first and last characters of the original palindrome
         String newString = palindrome.substring(1, lastPas);
         return isPalindrome(newString);
     }

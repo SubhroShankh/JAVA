@@ -1,7 +1,7 @@
 public class Array {
     public static void main(String[] args) {
-        /*int[] myArr = new int[5];
-        myArr[0] = 98; 
+        /* int[] myArr = new int[5];
+        myArr[0] = 98;
         myArr[1] = 56;
         myArr[3] = 95;
         myArr[2] = 73;

@@ -2,13 +2,13 @@
 public class Car {
 
     // Static variable shared across all instances (tracks total cars sold)
-    static int noOfCarSold;
+     static int noOfCarSold;
 
     // Instance variables unique to each Car object
     int noOfWheels;                 
-    String colour;                  
+    String colour;
     float maxSpeed;                 
-    float currentFuelInLiters;      
+    float currentFuelInLiters;
     int noOfSeats;                  
 
     // Static block: runs only once when the class is first loaded into memory

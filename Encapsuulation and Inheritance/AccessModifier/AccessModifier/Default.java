@@ -1,7 +1,7 @@
-package ShankhSubhro;
+package AccessModifier;
 
-public class pekage {
+class Default {
     public static void main(String[] args) {
-        
+
     }
 }

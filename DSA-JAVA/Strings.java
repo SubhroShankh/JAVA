@@ -61,6 +61,14 @@ public class Strings {
         String str = "Hello world";
         System.out.println(subString(str, 0, 5));
         System.out.println(str.substring(0, 5));
+
+        // String Builder
+        StringBuilder sb = new StringBuilder("");
+        for (char ch = 'a'; ch <= 'z'; ch++) {
+            sb.append(ch);
+        }
+        System.out.println(sb);
+        System.out.println(sb.length());
     }
 
     public static String subString(String str, int si, int ei) {
